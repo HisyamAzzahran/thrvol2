@@ -105,7 +105,7 @@ function tampilkanHasil() {
     
     if(correctAnswers === questions.length){
         specialLink.innerHTML = `<p>Selamat, semua benar! Klik link berikut untuk hadiah spesial:</p>
-        <a href="https://link.dana.id/danakaget?c=s64e7zwc2&r=fRBIPX&orderId=20250331101214789315010300166513115141967" target="_blank">Ambil Hadiahmu!</a>`;
+        <a href="https://link.dana.id/danakaget?c=sbj2ycxah&r=fRBIPX&orderId=20250331101214777415010300166513115135639" target="_blank">Ambil Hadiahmu!</a>`;
     } else {
         specialLink.innerHTML = `<p>Terima kasih telah berpartisipasi!</p>`;
     }
