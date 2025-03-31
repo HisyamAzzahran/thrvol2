@@ -1,86 +1,31 @@
+// Soal Umum (Level 2)
 const soalUmum = [
-    {
-        question: "Siapa Wakil Presiden pertama RI?",
-        answers: ["Soekarno", "Mohammad Hatta", "Ki Hajar Dewantara", "Tan Malaka", "Agus Salim"],
-        correct: 1
-    },
-    {
-        question: "√144 + √81 adalah?",
-        answers: ["20", "21", "23", "24", "25"],
-        correct: 1
-    },
-    {
-        question: "Negara yang pertama kali mengakui kemerdekaan Indonesia?",
-        answers: ["Mesir", "India", "Amerika Serikat", "Belanda", "Australia"],
-        correct: 0
-    },
-    {
-        question: "Siapakah Bapak Pendidikan Nasional Indonesia?",
-        answers: ["Soekarno", "Mohammad Yamin", "Ki Hajar Dewantara", "Sutan Syahrir", "WR Soepratman"],
-        correct: 2
-    },
-    {
-        question: "Ibukota Sumatera Utara adalah?",
-        answers: ["Padang", "Palembang", "Pekanbaru", "Medan", "Banda Aceh"],
-        correct: 3
-    }
+  {question: "Siapa penulis novel 'Laskar Pelangi'?", answers:["Andrea Hirata","Tere Liye","Habiburrahman El Shirazy","Dewi Lestari","Ahmad Fuadi"], correct:0},
+  {question: "Apa ibu kota Australia?", answers:["Sydney","Melbourne","Canberra","Brisbane","Perth"], correct:2},
+  {question: "Ilmuwan teori relativitas?", answers:["Newton","Einstein","Galilei","Tesla","Hawking"], correct:1},
+  {question: "Letak Candi Borobudur?", answers:["Yogyakarta","Magelang","Surakarta","Semarang","Malang"], correct:1},
+  {question: "Mata uang resmi Jepang?", answers:["Won","Yuan","Yen","Baht","Ringgit"], correct:2}
 ];
 
+// Soal Soshum (Level 3 - RUU TNI)
 const soalSoshum = [
-    {
-        question: "RUU TNI yang sedang viral terkait dengan?",
-        answers: ["Ekonomi", "Politik", "Kesehatan", "Pertahanan dan Keamanan", "Pariwisata"],
-        correct: 3
-    },
-    {
-        question: "RUU TNI menjadi viral karena dianggap?",
-        answers: ["Terlalu menguntungkan sipil", "Mengurangi peran TNI", "Memberi TNI kewenangan luas di sipil", "Terlalu kecil anggarannya", "Tidak jelas tujuannya"],
-        correct: 2
-    },
-    {
-        question: "Isu sentral pada RUU TNI terkait dengan?",
-        answers: ["Ekonomi kreatif", "Pengangguran", "Pembangunan desa", "Peran TNI di ranah sipil", "Teknologi digital"],
-        correct: 3
-    },
-    {
-        question: "Dampak kontroversial dari RUU TNI adalah?",
-        answers: ["Peningkatan ekonomi", "Perubahan sosial budaya", "Potensi pelanggaran HAM", "Peningkatan pendidikan", "Infrastruktur"],
-        correct: 2
-    },
-    {
-        question: "Kritikan masyarakat terhadap RUU TNI terutama soal?",
-        answers: ["Peran TNI di politik", "Bantuan sosial", "Kesehatan", "Pariwisata", "Teknologi"],
-        correct: 0
-    }
+  {question:"Pasal dalam revisi UU TNI terkait OMSP?", answers:["Pasal 3","Pasal 7","Pasal 47","Pasal 53","Pasal 30"], correct:1},
+  {question:"Total tugas OMSP dalam UU TNI baru?", answers:["12","14","16","18","20"], correct:2},
+  {question:"Isi Pasal 47 revisi UU TNI?", answers:["Kedudukan TNI","Penambahan OMSP","Prajurit aktif jabatan sipil","Usia pensiun","Kewenangan siber"], correct:2},
+  {question:"Batas usia pensiun perwira tinggi bintang 3?", answers:["60 tahun","61 tahun","62 tahun","63 tahun","65 tahun"], correct:2},
+  {question:"Tujuan tambahan OMSP dalam revisi UU TNI?", answers:["Politik","Pertahanan siber & kepentingan nasional","Ekonomi","Keamanan internal","Anggaran pertahanan"], correct:1}
 ];
 
+// Soal Saintek (Level 3)
 const soalSaintek = [
-    {
-        question: "Unsur dengan simbol kimia 'O' adalah?",
-        answers: ["Ozon", "Emas", "Oksigen", "Perak", "Karbon"],
-        correct: 2
-    },
-    {
-        question: "Planet terdekat kedua dari matahari?",
-        answers: ["Merkurius", "Venus", "Mars", "Bumi", "Yupiter"],
-        correct: 1
-    },
-    {
-        question: "Air mendidih pada suhu berapa (derajat Celcius)?",
-        answers: ["90°C", "80°C", "100°C", "70°C", "95°C"],
-        correct: 2
-    },
-    {
-        question: "Organ manusia yang berfungsi untuk menyaring darah?",
-        answers: ["Jantung", "Ginjal", "Paru-paru", "Hati", "Otak"],
-        correct: 1
-    },
-    {
-        question: "Rumus kimia air adalah?",
-        answers: ["H₂O₂", "H₂", "O₂", "H₂O", "HO"],
-        correct: 3
-    }
+  {question:"Protein pengikat oksigen di darah?", answers:["Albumin","Globulin","Fibrinogen","Hemoglobin","Mioglobin"], correct:3},
+  {question:"Proses tumbuhan hasilkan energi dari matahari?", answers:["Fotosintesis","Respirasi","Fermentasi","Difusi","Transpirasi"], correct:0},
+  {question:"Rumus kimia glukosa?", answers:["C6H6O6","C6H12O6","C12H22O11","C2H5OH","CH3COOH"], correct:1},
+  {question:"Unsur terbanyak di atmosfer bumi?", answers:["Karbon Dioksida","Nitrogen","Oksigen","Argon","Hidrogen"], correct:1},
+  {question:"Hukum aksi-reaksi Newton adalah hukum ke?", answers:["1","2","3","4","5"], correct:2}
 ];
+
+// Tetap gunakan script JavaScript Vol.2 sebelumnya untuk fungsi kuis
 
 let currentQuestion = 0;
 let correctAnswers = 0;
