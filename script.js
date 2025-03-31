@@ -7,7 +7,7 @@ const soalUmum = [
     {
         question: "√144 + √81 adalah?",
         answers: ["20", "21", "23", "24", "25"],
-        correct: 3
+        correct: 1
     },
     {
         question: "Negara yang pertama kali mengakui kemerdekaan Indonesia?",
