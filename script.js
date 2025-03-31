@@ -1,31 +1,31 @@
 // Soal Umum (Level 2)
 const soalUmum = [
-  {question: "Siapa penulis novel 'Laskar Pelangi'?", answers:["Andrea Hirata","Tere Liye","Habiburrahman El Shirazy","Dewi Lestari","Ahmad Fuadi"], correct:0},
-  {question: "Apa ibu kota Australia?", answers:["Sydney","Melbourne","Canberra","Brisbane","Perth"], correct:2},
-  {question: "Ilmuwan teori relativitas?", answers:["Newton","Einstein","Galilei","Tesla","Hawking"], correct:1},
-  {question: "Letak Candi Borobudur?", answers:["Yogyakarta","Magelang","Surakarta","Semarang","Malang"], correct:1},
-  {question: "Mata uang resmi Jepang?", answers:["Won","Yuan","Yen","Baht","Ringgit"], correct:2}
+    {question:"Tahun berapa ASEAN didirikan?", answers:["1965","1967","1970","1975","1980"], correct:1},
+    {question:"Sungai terpanjang di dunia?", answers:["Sungai Nil","Sungai Amazon","Sungai Yangtze","Sungai Mississippi","Sungai Gangga"], correct:0},
+    {question:"Negara terbesar berdasarkan wilayah di dunia?", answers:["Kanada","Amerika Serikat","Rusia","Tiongkok","Brasil"], correct:2},
+    {question:"Julukan untuk Pulau Bali?", answers:["Pulau Seribu Masjid","Pulau Dewata","Pulau Rempah","Pulau Seribu Pura","Pulau Gadang"], correct:1},
+    {question:"Mata uang resmi negara Thailand?", answers:["Peso","Dollar","Baht","Dong","Rupiah"], correct:2}
 ];
 
-// Soal Soshum (Level 3 - RUU TNI)
+// Soal Soshum (Level 4 - Kejanggalan Demokrasi Indonesia)
 const soalSoshum = [
-  {question:"Pasal dalam revisi UU TNI terkait OMSP?", answers:["Pasal 3","Pasal 7","Pasal 47","Pasal 53","Pasal 30"], correct:1},
-  {question:"Total tugas OMSP dalam UU TNI baru?", answers:["12","14","16","18","20"], correct:2},
-  {question:"Isi Pasal 47 revisi UU TNI?", answers:["Kedudukan TNI","Penambahan OMSP","Prajurit aktif jabatan sipil","Usia pensiun","Kewenangan siber"], correct:2},
-  {question:"Batas usia pensiun perwira tinggi bintang 3?", answers:["60 tahun","61 tahun","62 tahun","63 tahun","65 tahun"], correct:2},
-  {question:"Tujuan tambahan OMSP dalam revisi UU TNI?", answers:["Politik","Pertahanan siber & kepentingan nasional","Ekonomi","Keamanan internal","Anggaran pertahanan"], correct:1}
+    {question:"Pasal multitafsir UUD 1945 terkait demokrasi ekonomi adalah?", answers:["Pasal 27 ayat (1)","Pasal 28 ayat (1)","Pasal 33 ayat (3)","Pasal 37 ayat (5)","Pasal 7C"], correct:2},
+    {question:"UU yang dikritik karena mengancam kebebasan berekspresi?", answers:["UU No.11/2008 ITE","UU No.7/2017 Pemilu","UU No.30/2002 KPK","UU No.2/2002 Polri","UU No.32/2004 Pemda"], correct:0},
+    {question:"Money politics bertentangan dengan pasal berapa di UU Pemilu No.7/2017?", answers:["Pasal 280 ayat (1)","Pasal 281 ayat (2)","Pasal 282 ayat (1)","Pasal 283 ayat (1)","Pasal 284 ayat (2)"], correct:0},
+    {question:"Politik dinasti bertentangan dengan UU Pemerintahan Daerah nomor berapa?", answers:["UU No.23/2014 Pasal 76","UU No.2/2011 Pasal 15","UU No.32/2004 Pasal 5","UU No.11/2008 Pasal 27","UU No.40/2008 Pasal 3"], correct:0},
+    {question:"Putusan MK tentang keterwakilan perempuan dalam politik nomor berapa?", answers:["MK No.14/PUU-XI/2013","MK No.20/PUU-XVII/2019","MK No.22-24/PUU-VI/2008","MK No.55/PUU-XVII/2019","MK No.135/PUU-XIII/2015"], correct:2}
 ];
 
-// Soal Saintek (Level 3)
+// Soal Saintek (Level 4)
 const soalSaintek = [
-  {question:"Protein pengikat oksigen di darah?", answers:["Albumin","Globulin","Fibrinogen","Hemoglobin","Mioglobin"], correct:3},
-  {question:"Proses tumbuhan hasilkan energi dari matahari?", answers:["Fotosintesis","Respirasi","Fermentasi","Difusi","Transpirasi"], correct:0},
-  {question:"Rumus kimia glukosa?", answers:["C6H6O6","C6H12O6","C12H22O11","C2H5OH","CH3COOH"], correct:1},
-  {question:"Unsur terbanyak di atmosfer bumi?", answers:["Karbon Dioksida","Nitrogen","Oksigen","Argon","Hidrogen"], correct:1},
-  {question:"Hukum aksi-reaksi Newton adalah hukum ke?", answers:["1","2","3","4","5"], correct:2}
+    {question:"Enzim yang mengubah protein menjadi asam amino?", answers:["Amilase","Lipase","Tripsin","Maltase","Laktase"], correct:2},
+    {question:"Zat aktif utama analgesik dalam aspirin?", answers:["Asam Asetat","Asam Benzoat","Asam Salisilat","Asam Sitrat","Asam Fosfat"], correct:2},
+    {question:"Gelombang elektromagnetik dengan panjang gelombang terpendek?", answers:["Gelombang radio","Gelombang mikro","Inframerah","Ultraviolet","Gamma"], correct:4},
+    {question:"Proses pembentukan sel darah disebut?", answers:["Eritropoiesis","Leukopoiesis","Trombopoiesis","Hematopoiesis","Osteogenesis"], correct:3},
+    {question:"Neurotransmitter pengatur suasana hati di otak manusia?", answers:["Dopamin","Serotonin","GABA","Adrenalin","Histamin"], correct:1}
 ];
 
-// Tetap gunakan script JavaScript Vol.2 sebelumnya untuk fungsi kuis
+// Gunakan logika pemilihan soal seperti di quiz sebelumnya (Vol.2 & Vol.3)
 
 let currentQuestion = 0;
 let correctAnswers = 0;
