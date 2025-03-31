@@ -160,7 +160,7 @@ function tampilkanHasil() {
     
     if(correctAnswers === questions.length){
         specialLink.innerHTML = `<p>Selamat, semua benar! Klik link berikut untuk hadiah spesial:</p>
-        <a href="https://link.dana.id/danakaget?c=szvajt2zp&r=fRBIPX&orderId=20250330101214533515010300166513115202103" target="_blank">Ambil Hadiahmu!</a>`;
+        <a href="https://link.dana.id/danakaget?c=smjvl2nfr&r=fRBIPX&orderId=20250331101214955815010300166513115170548" target="_blank">Ambil Hadiahmu!</a>`;
     } else {
         specialLink.innerHTML = `<p>Terima kasih telah berpartisipasi!</p>`;
     }
