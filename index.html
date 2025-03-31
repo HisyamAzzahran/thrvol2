@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz THR Vol. 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" id="start-container">
+    <h1 class="title">🎵 Gunakan Musik? 🎵</h1>
+    <button id="musik-ya" class="next-btn">Ya</button>
+    <button id="musik-tidak" class="next-btn">Tidak</button>
+</div>
+
+<audio id="bg-music" loop>
+    <source src="Ramol.mp3" type="audio/mp3">
+</audio>
+
+<div class="container hidden" id="quiz-container">
+    <h1 class="title">✨ Quiz THR Vol. 1 ✨</h1>
+    <div class="question-number" id="question-number"></div>
+    <div class="question" id="question"></div>
+    <div class="answers" id="answers"></div>
+    <button id="next-btn" class="next-btn hidden">Lanjutkan</button>
+</div>
+
+<div class="container hidden" id="result-container">
+    <h1 class="title">🎉 Hasil Akhir 🎉</h1>
+    <div id="score"></div>
+    <div id="special-link"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

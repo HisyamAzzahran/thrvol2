@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    padding: 25px;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    animation: bounceIn 1s;
+}
+
+.title {
+    margin-bottom: 20px;
+    animation: fadeInDown 1s;
+}
+
+.quiz-container {
+    margin-top: 10px;
+}
+
+.question-number {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.question {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    animation: fadeIn 1.2s;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.answer {
+    padding: 10px 15px;
+    background: #fff0f6;
+    border: 2px solid #ff8fab;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.answer:hover {
+    background: #ff8fab;
+    color: white;
+    transform: scale(1.05);
+}
+
+.answer.selected {
+    background: #ff8fab;
+    color: white;
+}
+
+.next-btn {
+    margin-top: 20px;
+    padding: 8px 20px;
+    border: none;
+    background: #ff006e;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.next-btn:hover {
+    transform: scale(1.1);
+}
+
+.hidden {
+    display: none;
+}
+
+/* Animasi CSS */
+@keyframes bounceIn {
+    from { transform: scale(0.7); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fadeInDown {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+#start-container .next-btn {
+    margin: 10px;
+}
+
+#score {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#special-link a {
+    color: #ff006e;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#special-link a:hover {
+    text-decoration: underline;
+    color: #c70053;
+}
